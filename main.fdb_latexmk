@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1732460483.93738 "/Users/anjalisarawgi/Desktop/prof_augustin/destatis/main.tex" "main.pdf" "main" 1732460484.86392 0
-  "/Users/anjalisarawgi/Desktop/prof_augustin/destatis/main.tex" 1732460483.53752 3417 fed4038b1bf7afcdefceeea071bd23c5 ""
+["pdflatex"] 1732461769.71731 "/Users/anjalisarawgi/Desktop/prof_augustin/destatis/main.tex" "main.pdf" "main" 1732461771.99361 0
+  "/Users/anjalisarawgi/Desktop/prof_augustin/destatis/main.tex" 1732461769.2926 5882 bf85c63baa405bf478194eaed3ccb333 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -73,9 +73,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1729446922.79333 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1729446716 8221430 e0656bd34cb5ea92a9805a8065be0ed6 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1732460484.79043 1090 ecbe3b171ff67d61f76129ffe46a808d "pdflatex"
-  "main.out" 1732460484.79098 2114 003ba5d9edddc0919f7439aec08b7b0a "pdflatex"
-  "main.tex" 1732460483.53752 3417 fed4038b1bf7afcdefceeea071bd23c5 ""
+  "main.aux" 1732461771.91159 1098 3231e7d08ae175c8e48b2d2d534e01bf "pdflatex"
+  "main.out" 1732461771.91226 2163 8b68cf366617f7c7ebd01e413369162a "pdflatex"
+  "main.tex" 1732461769.2926 5882 bf85c63baa405bf478194eaed3ccb333 ""
   (generated)
   "main.aux"
   "main.log"

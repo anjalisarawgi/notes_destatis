@@ -64,8 +64,30 @@ General Presentation framework:
 
 ---
 
-\section{Section 5: Machine learning operations and reproducibility in official statistics}
-(Same format as above)
+\section{Section 5 (MLops): Machine learning operations and reproducibility in official statistics}
+\textbf{Key POints:}
+\begin{itemize}[label=\textbullet, leftmargin=1cm]
+    \item what? is mlops
+    \item Why? MLOps ensures that ML systems used in official statistics are reusable, transparent and scalable
+    \item also why? MLOps practices build trust in ML systems for official statistics by ensuring transparency and reproducibility
+    \item concepts? version control for data and models, CI/CD pipeline
+\end{itemize}
+
+\textbf{Visual Ideas:}
+\begin{itemize}[label=$\star$, leftmargin=1cm]
+    \item MLOps pipeline chart
+    \item explaining each step with a video or a real time example (also really depends on how familiar they are with this)
+    \item example of dealing with bias (the formula)
+    \item visually showing the way ahead? 
+    \item the connection between Interpretability and fairness of ML
+    \item A messy vs a clean process (good way to understand the importance better)
+    \item also like what you have now + the additions we are trying to get
+    \item results first and then the pipeline description
+    \item the git repository
+    \item talking about mlops best practices to be sure of the internal working standards and handling possible future problems (maybe a document for this would be enough though)
+    \item extensions, couldera, data leaks (not sure how much depth to go into these)
+\end{itemize}
+
 
 ---
 
@@ -91,12 +113,26 @@ General Presentation framework:
     \item Data collection -> Cleaning -> Training -> Prediction -> Decision, with bias sources highlighted at each stage.
     \item example of dealing with bias (the formula)
     \item visually showing the way ahead? 
+    \item the connection between Interpretability and fairness of ML
 \end{itemize}
 
 
-\textbf{Questions / topics to Address:}
-\begin{enumerate}[label=Q\arabic*:, leftmargin=1cm]
-    \item the connection between Interpretability and fairness of ML
+\textbf{Contributions}
+\begin{enumerate}[label=C\arabic*:, leftmargin=1cm]
+    \item we propose an extension of the “Quality Framework for Statistical Algorithms” (QF4SA; Yung et al. 2022), with which fairness considerations can be embedded in existing quality guidelines
+    \item suggesting, Data from official statistics can be used as benchmark data for fairness evaluations, both in comparison to other data and for ML models themselves.
+    
 \end{enumerate}
 
+
+\begin{itemize}
+    \item are we talking to different sets of people, or is it one audience
+    \item what is their familirarity wiht the existing mehtods 
+    \item how much stat/math/ml/code/python/r/mlops do they know? even like github?
+    \item atleast for the coded parts, maybe a document with the tutorial would be very benefical. or a recorded one because this might possibly be a big struggle
+    \item questions: what? why? what has been working so far (objective 1) ? how are we helping this to make it better (objective 2)? how to integrate this all and go ahead? 
+    \item visual diagrams of the pipeline or the problem + real world synthetic official statistics examples
+    \item not go too theoretical, but explain it more visually 
+    \item 
+\end{itemize}
 \end{document}
