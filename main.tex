@@ -1,0 +1,102 @@
+\documentclass[a4paper,12pt]{article}
+
+% Packages
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{Presentation Notes}}
+\fancyhead[R]{\today}
+\fancyfoot[C]{\thepage}
+
+% Section Formatting
+\titleformat{\section}{\large\bfseries\color{sectioncolor}}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries\color{subsectioncolor}}{\thesubsection.}{0.5em}{}
+
+% Colors
+\definecolor{sectioncolor}{HTML}{005f73}
+\definecolor{subsectioncolor}{HTML}{0a9396}
+\definecolor{notecolor}{HTML}{94d2bd}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Presentation Notes}} \\
+    \vspace{0.2cm}
+    % {\large Author: Anjali} \\
+    % \vspace{0.2cm}
+    {\small Date: \today}
+\end{center}
+
+General Presentation framework:
+\begin{itemize}
+    \item What is the topic, why does it matter for official statistics?
+    \item Definitions and key methods explained simply
+    \item examples
+    \item contributions
+    \item flowcharts, graphs, tables
+    \item conclusion
+\end{itemize}
+\section{Section 1: Estimation of the generalization error and its uncertainty}
+
+---
+
+\section{Section 2:  Interpretable machine learning }
+(Same format as above)
+“Would you trust an ML model if you couldn’t explain its decision?”
+
+---
+
+\section{Section 3:  Machine learning for complex sample designs }
+(Same format as above)
+
+---
+
+\section{Section 4: Quantitative methods for uncertainty quantification}
+(Same format as above)
+
+---
+
+\section{Section 5: Machine learning operations and reproducibility in official statistics}
+(Same format as above)
+
+---
+
+\section{Section 6: Fairness and Bias Auditing}
+\textbf{Key Points:}
+\begin{itemize}[label=\textbullet, leftmargin=1cm]
+    \item techinical + social and societal challenges of ML in public sector
+    \item what are the problems? ans: shifts in decision making responsibility and immense technical stability
+    \item protected attributes
+    \item measurement errors can also affect model training
+    \item group, subgroup and individual fairness (concepts, and challenge)
+    \item prediction and decision step (talking about how crucial the prediction step in official statistics is)
+    \item The fairness of ADM systems starts way before decisions are made. Every step in the data pipeline - from designing surveys to cleaning and processing data - contributes to the fairness (or unfairness) of the final sustem
+    \item Some effects may have bigger impact than others
+    \item Two steps of ADM where prediction step directly affects the decision step
+    \item integrating fairness aspects into existing quality criterion (contributions)
+    \item the way ahead with the possible new opportunities (contribution)
+\end{itemize}
+
+\textbf{Visual Ideas:}
+\begin{itemize}[label=$\star$, leftmargin=1cm]
+    \item Example: Bias in a loan approval system 
+    \item Data collection -> Cleaning -> Training -> Prediction -> Decision, with bias sources highlighted at each stage.
+    \item example of dealing with bias (the formula)
+    \item visually showing the way ahead? 
+\end{itemize}
+
+
+\textbf{Questions / topics to Address:}
+\begin{enumerate}[label=Q\arabic*:, leftmargin=1cm]
+    \item the connection between Interpretability and fairness of ML
+\end{enumerate}
+
+\end{document}
